@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Undangan Main untuk Pacar</title>
+    <style>
+        body {
+            font-family: 'Arial', sans-serif;
+            background: linear-gradient(to bottom, #ff9a9e, #fecfef);
+            color: #333;
+            text-align: center;
+            padding: 20px;
+            margin: 0;
+        }
+        .container {
+            max-width: 600px;
+            margin: 0 auto;
+            background: white;
+            padding: 30px;
+            border-radius: 15px;
+            box-shadow: 0 0 20px rgba(0,0,0,0.1);
+        }
+        h1 {
+            color: #e91e63;
+            font-size: 2.5em;
+        }
+        p {
+            font-size: 1.2em;
+            line-height: 1.6;
+        }
+        .button {
+            display: inline-block;
+            background: #e91e63;
+            color: white;
+            padding: 10px 20px;
+            text-decoration: none;
+            border-radius: 5px;
+            margin-top: 20px;
+            cursor: pointer;
+        }
+        .button:hover {
+            background: #c2185b;
+        }
+        img {
+            max-width: 100%;
+            height: auto;
+            border-radius: 10px;
+            margin: 20px 0;
+        }
+        .gallery {
+            display: flex;
+            justify-content: center;
+            gap: 10px;
+            flex-wrap: wrap;
+        }
+        .gallery img {
+            width: 150px;
+            height: 100px;
+            object-fit: cover;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>Undangan For Aisyah Nur Azizah</h1>
+        
+        <!-- Gambar utama romantis -->
+        <img src="gambar4.jpg" alt="Gambar Romantis - Pasangan di Pantai" />
+        
+        <!-- Galeri gambar tambahan untuk lebih menarik -->
+        <div class="gallery">
+            <img src="gambar1.jpeg" alt="Gambar 1 - Kencan Romantis" />
+            <img src="gambar2.jpeg" alt="Gambar 2 - Main Game Bersama" />
+            <img src="gambar3.jpeg" alt="Gambar 3 - Jalan-Jalan" />
+        </div>
+        
+        <p>Hai, Sayang! nanti kita main yaa sayang di bogorr, kita jalan jalan, kita seneng seneng pokoknya nantii sayangkuu cintakuu, I Love Youu</p>
+        <p>Jangan ngediemin lama lama pliss, sedih dah didiemin gini, udah 3 hari komunikasi kita berantakan gini sayangg, baikan yukk jangan marah marah lagii sayangg</p>
+        <p>Waktu: Sabtu, 17 Januari 2026</p>
+        <p>Tempat: Bogorrr</p>
+        <p>See youu tanggal 17 Januari sayanggg!!!</p>
+        
+        <!-- Tombol konfirmasi dengan JavaScript untuk alert dan redirect ke WA -->
+        <button class="button" onclick="confirmInvitation()">Konfirmasi Sekarang</button>
+    </div>
+
+    <script>
+        function confirmInvitation() {
+            // Munculkan alert dengan pesan yang diminta
+            alert("yay, ayo kita bersenang senang sayangg");
+            
+            // Redirect ke WhatsApp dengan nomor placeholder (ganti dengan nomor pacar Anda, format internasional tanpa +)
+            // Contoh: https://wa.me/6285290317021?text=Hai%20Sayang%2C%20aku%20konfirmasi%20ya%21
+            // %20 = spasi, %21 = !
+            window.location.href = "https://wa.me/6285290317021?text=Hai%20Sayang%2C%20aku%20konfirmasi%20ya%21%20Yuk%20main%20bareng%20%20tanggal%2017%20%20sayangg%21";
+        }
+    </script>
+</body>
+</html>
